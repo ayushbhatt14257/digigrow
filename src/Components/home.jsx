@@ -18,6 +18,11 @@ import experience from '../assests/experience.png'
 import file from '../assests/08.png'
 import satisfaction from '../assests/satisfaction.png'
 import deadline from '../assests/deadline.png'
+import yahoo_finance_en from '../assests/yahoo_finance_en-US_h_p_financev2_2.png'
+import Bbc_london_logo from '../assests/Bbc_london_logo.jpg'
+import Khaleej_Times_Logo from '../assests/Khaleej_Times_Logo.png'
+import theguardianlogo from '../assests/the-guardian-logo.jpeg'
+import Benzinga from '../assests/Benzinga-Logo.png'
 
 
 const Home = () => {
@@ -443,10 +448,88 @@ const Home = () => {
 
             </section>
 
-            <section className="awardPara">
+            <section className="awardContainer">
                 <div className='awaradHeading'>
                     <h1>Awarded Best Dissertation Writing Service in the UK - </h1>
                 </div>
+
+                <div className="awardGrid">
+                    <div class="row awardCard text-center">
+                        <div class="col-lg-3 col-md-6 col-sm-12 awardCol">
+                            <img src={yahoo_finance_en} alt="" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 awardCol">
+                            <img src={Bbc_london_logo} alt="" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 awardCol">
+                            <img src={Khaleej_Times_Logo} alt="" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 awardCol">
+                            <img src={theguardianlogo} alt="" />
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-12 awardCol">
+                            <img src={Benzinga} alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className='awardpara'>
+                    <p>Why is PROJECTSDEAL the popular choice and ranked as the best dissertation writing services in UK?
+                        The very reason https://projectsdeal.co.uk is clearly Ranked No.1 on every single platform for over 20 years in a row is because we have a flawless trackrecord since 2001. We are the UK's first Dissertation and Coursework Writing Company. We are the Biggest team of over 600 full time seasoned professionals like project coordination teams, Domain experts, Sophisticated academic Writers, Senior proof readers, and we are blessed with very very dependable and superior leadership.</p>
+
+                    <p>Can someone write my dissertation if I do not have the project title? <br />
+                        We first have to define the precise research title for your research. Meaning we must start by narrowing down your exact area of research and consolidate that into a meaningful dissertation title. After that you have to get it approved from your supervisor. Once the Dissertation title is approved we can start with the Dissertation Proposal. The Dissertation Proposal must have a very clearly defined Aim of our research, followed by perfectly established research objectives we need to meet by the end of our research and clear Research Questions. We need latest references from important journals and identify right authors to refer to. This is what we do, we continuously research and write Dissertations and Research papers and hence we give you full leverage of our expertise. Please
+                        <span><button><i className="fa-brands fa-whatsapp"></i>WhatsApp +447447882377</button></span>and we shall personally have a detailed discussion and help you more meaningfully.
+                    </p>
+                    <p>Can you please brief me about the process? <br />
+                        Lets define the exact word count and the deadline. For your Dissertation we can help you define the title in your area of interest and start step by step to define the research proposal and take it forward chapter wise. Once we define the exact deliverable and the deadline. We shall offer you the professional fees for our help. After that we shall process your payment formalities and onboard you. You will have your unique project id along with your dedicated project coordinator. So we can progress step by step and work as one team all along. You can check the detailed process of how we work.
+
+                    </p>
+                    <p> What qualifications do your dissertation writers have? <br />
+                        All of our writers come with a lot of experience in dissertation writing. They hold Master and Ph.D. degrees from reputed universities. They have published their own papers and possess extensive knowledge in all domains & degrees (Mangement, Marketing, Nursing, Law, Undergrad, Masters, PhD thesis writing service). Their experienced writers enable them to write dissertations in a wide range of fields. Moreover, they're skilled at writing 100% academic dissertation, Since 2001.</p>
+                    <p>Can I see some sample work? <br />
+                        Here are some Dissertation Examples</p>
+                </div>
+                <div className="smaple">
+                    <div className="s1">
+                        <p>
+                            Sample 1 |
+                        </p>
+                    </div>
+                    <div className="s1"> <p>
+                        Sample 2 |
+                    </p>
+                    </div>
+                    <div className="s1"> <p>
+                        Sample 3
+                    </p>
+                    </div>
+                </div>
+            </section>
+
+            <section className='work'>
+                <div className="workHeading">
+                    <h1>Are you working with us for the First time? If Yes?</h1>
+                    <h2>Good News!! <span>Click here</span> to avail your Full First Order Discount instantly:</h2>
+                </div>
+                <div className="workImg">
+                    <img src={learnMore} alt="" />
+                </div>
+
+                <div className="workPara">
+                    <p>How long is a dissertation? <br />
+                        An average dissertation has a word count between 7,000 to 20,000 words. But different universities set different word limits for dissertation. So, be sure to check the word limit with your university.</p>
+
+                    <p>What is the general dissertation structure? <br />
+                        Generally, dissertation structure in the UK includes the following: Title Page, Acknowledgment, Abstract, Introduction, Literature Review, Aims and Objectives, Research Analysis, Methodology, Results Discussion Chapters, General Discussion, Conclusion and Contribution - Implications and Future Directions
+                    </p>
+
+                    <p>
+                        Can I contact you at any time? <br />
+                        Yes. ProjectsDeal allocated a personal project manager as soon as the dissertation order is placed. Our team is available 24/7 in order to assist you whenever you need us. Feel free to email us or contact us via WhatsApp. Manager will be available till final successful submission.
+                    </p>
+                </div>
+
             </section>
         </>
     )

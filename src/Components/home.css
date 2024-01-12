@@ -830,13 +830,108 @@ ul {
 
 /* ========================= AWARD PARA ==================================== */
 
-.awardPara {
+.awardContainer {
     display: flex;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
+    width: 90%;
+    margin: auto;
 }
 
 .awaradHeading h1 {
     font-size: 2.5rem;
     color: #a98511;
+}
+
+.awardCard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.awardCol img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.awardpara {
+    margin-top: 2rem;
+}
+
+.awardpara p {
+    font-size: 18px;
+}
+
+.awardpara span button {
+    background-color: #59ce72;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.smaple {
+    display: flex;
+    justify-content: flex-start;
+    align-self: start;
+}
+
+.s1 p {
+    font-size: 18px;
+    color: #1968b5;
+}
+
+
+/* ========================= WORK ====================================== */
+
+.work {
+    max-width: 90%;
+    margin: auto;
+}
+
+.workHeading {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.workHeading h1 {
+    font-weight: 800;
+}
+
+.workHeading h2 {
+    font-weight: 100;
+    font-size: 40px;
+    text-align: center;
+}
+
+.workHeading h2 span {
+    color: #1968b5;
+}
+
+.workImg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.workImg img {
+    width: 14%;
+}
+
+.workPara {
+    margin-top: 2rem;
+}
+
+.workPara p {
+    font-size: 18px;
 }
